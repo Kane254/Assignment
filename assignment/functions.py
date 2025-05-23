@@ -5,7 +5,7 @@ def get_first_element(my_list):
   """
   if not my_list: # Checks if the list is empty
     return None
-  return my_list[0] # List indices start at 0 for the first element
+  print(my_list[0]) # List indices start at 0 for the first element
 
 
 
@@ -15,7 +15,7 @@ def greet_user():
   This function takes a name (string) and returns a personalized greeting.
   """
   name = 'Kane'
-  return (f"Hello, {name}! Welcome!")
+  print(f"Hello, {name}! Welcome!")
 
 
 
